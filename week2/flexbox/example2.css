@@ -1,0 +1,39 @@
+.component {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+}
+.colorcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Media query for screens narrower than 768px (mobile) */
+@media screen and (max-width: 767px) {
+  .component {
+    width: 90%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .component {
+    max-width: 100%;
+  }
+  .colorcontainer {
+    flex-direction: column;
+  }
+  .red {
+    background-color: red;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .green {
+    background-color: green;
+  }
+}
