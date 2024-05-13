@@ -26,6 +26,8 @@ For example:
 // Example usage:
 console.log(calculateFactorial(5)); // Output should be 120 (5 * 4 * 3 * 2 * 1 = 120)
 console.log(calculateFactorial(0)); // Output should be 1 (by convention, 0! is defined to be 1)
+```
+
 
 
 ### Research Exercise: Objects in JavaScript
