@@ -9,7 +9,7 @@
    - Solve a JavaScript problem that involves functions and loops.
 
 2. **Research and Answer Questions on Objects in JavaScript:**
-   - Answer three questions related to objects in JavaScript by conducting research.
+   - Answer the question down below.
 
 ### Problem Solving Exercise: Factorial Calculation
 
